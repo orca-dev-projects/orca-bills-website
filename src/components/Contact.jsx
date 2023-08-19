@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import EmailSuccess from "./EmailSucces";
+import GetStarted from "./GetStarted";
 
 const Contact = ({ handleClick }) => {
   const form = useRef();
@@ -29,6 +30,7 @@ const Contact = ({ handleClick }) => {
   };
 
   return (
+    <>
     <div id="contact" className="text-white font-poppins bg-transparent border-2 p-10 rounded-2xl flex justify-center  relative top-10 ">
       <div className="flex flex-col gap-4">
         <h2 className="text-4xl mb-0">Schedule a free demo</h2>
@@ -71,7 +73,13 @@ const Contact = ({ handleClick }) => {
           </form>
         )}
       </div>
+      
     </div>
+    <div className=" ml-9 lg:ml-[35vw]">
+    < GetStarted/>
+    </div>
+    
+    </>
   );
 };
 
