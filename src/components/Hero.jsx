@@ -21,13 +21,17 @@ const Hero = () => {
           </div>
           <div className=" cursor-pointer mb-2 z-0">
             <a href="#contact">
-            <p className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}>
-              Book a free Demo
-            </p>
+              <p
+                className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}
+              >
+                Book a free Demo
+              </p>
             </a>
           </div>
         </div>
-        <p className="text-white">Yearly subscription starts only @ ₹999 *</p>
+        <p className="text-white">
+          Yearly subscription starts only @ ₹999 * with lifetime Warranty
+        </p>
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             The Next <br className="sm:block hidden" />{" "}
@@ -52,14 +56,15 @@ const Hero = () => {
         className={` flex  flex-col ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src="https://i.ibb.co/ph1GQSr/512px-x-600px-removebg-preview.png"
+          src="https://i.ibb.co/2kkLWCw/Th-Printer.png"
           alt="billing"
           className="w-auto h-[90%] relative z-[5] rounded-2xl "
         />
-        <h2 className="text-white font-semibold ss:text-[42px] text-[32px]">Free Thermal Printer</h2>
+        <h2 className="text-white font-semibold ss:text-[22px] text-[16px]">
+          Free Thermal Printer with 1 year* of Warranty
+        </h2>
       </div>
       <div className={`ss:hidden ${styles.flexCenter}`}>
-      
         <GetStarted />
       </div>
     </section>
