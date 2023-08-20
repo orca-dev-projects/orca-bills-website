@@ -75,8 +75,9 @@ const Contact = ({ handleClick }) => {
       </div>
       
     </div>
-    <div className=" ml-9 lg:ml-[35vw]">
+    <div className="ml-9 lg:ml-[35vw]">
     < GetStarted/>
+    <a className="py-4 px-6 mt-0 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]" href="mailto:orcatech.ot@gmail.com">Click to Send us an Email</a>
     </div>
     
     </>
