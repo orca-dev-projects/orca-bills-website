@@ -101,12 +101,13 @@ export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: 3800,
+    value: 10,
   },
   {
     id: "stats-2",
     title: "Trusted by Consumers",
-    value: 230,
+    value: 2
+      0,
   },
   {
     id: "stats-3",
